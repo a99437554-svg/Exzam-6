@@ -5,6 +5,8 @@
     .div3{
         display: flex;
         flex-direction: column;
+        width: 347px;
+        margin-left: 10px;
     }
     .p1{
         font-size: 35px;
@@ -18,8 +20,9 @@
     .img111{
         display: block;
         position: absolute; 
-        width: 500px;
+        width: 420px;
         z-index: 1;
+        left: 20px;
         
     }
     .img2{
@@ -53,7 +56,7 @@
         position: relative;
         z-index: 1;
         top: 20px;
-        width: 350px;
+        width: 330px;
     }
 
     .p3{
@@ -62,7 +65,7 @@
 
     .img3{
         margin-left: 0px;
-        width: 250px;
+        width: 200px;
         margin-top: 20px;
     }
     .p4{
@@ -72,10 +75,12 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+        gap: 10px;
     }
     .div15{
         display: flex;
         flex-direction: column;
+        gap: 10px;
     }
     .aa1{
         width: 200px;
@@ -86,21 +91,46 @@
         padding: 20px;
         justify-content: start;
         width: 350px;
+        text-align: center;
     }
     .div18{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        gap: 15px;
     }
     .div19{
         display: flex;
         flex-direction: column;
-        width: 480px;
-        margin-left: 0;
+        width: 350px;
+        margin-left: 10;
+        text-align: start;
     }
     .img5{
         margin-left: 10px;
+        width: 160px;
     }
     .p15{
         font-size: 20px;
+    }
+    .div9{
+        width: 350px;
+    }
+    .div11{
+        width: 350px;
+    }
+    .div14{
+        width: 350px;
+    }
+    .p14{
+        margin-left: 10px;
+    }
+    .p13{
+        margin-left: 10px;
+    }
+    .p18{
+        margin-left: 10px;
+    }
+    .img4{
+        width: 160px;
     }
 }
